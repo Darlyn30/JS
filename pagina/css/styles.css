@@ -1,0 +1,19 @@
+body{
+background-image: url(/pagina/img/fondo.jpeg);
+background-size: 150%;
+background-position-x: -400px;
+background-position-y: 50px;
+}
+label{
+color: white;
+}
+
+h1{
+color: white;
+}
+p{
+color: white;
+}
+body{
+text-align: center;
+}
