@@ -4,5 +4,5 @@ back.addEventListener("click", volver)
 
 
 function volver(){
-    window.location = "/pagina/index.html"
+    window.location = "./index.html"
 }

@@ -4,5 +4,5 @@ atras.addEventListener("click", back)
 
 function back(){
     console.log("hola")
-    window.location = "/pagina/index.html"
+    window.location = "./index.html"
 }

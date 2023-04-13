@@ -11,13 +11,13 @@ btn.addEventListener("click", boton);
 
 // funcion del boton, esto es lo que el boton ejecutara
 function boton(){
-    console.log("el boton ta gvi");
+    // console.log("el boton ta gvi");
     const user = usuario.value
     const pass = password.value
     if(user == "darlyn" && pass == "darlyn123"){
-        window.location = "/pagina/index2.html"
+        window.location = "/subpages/index2.html"
     } else if(user != "darlyn" && pass != "darlyn123"){
-        window.location = "/pagina/index4.html"
+        window.location = "./subpages/index4.html"
     }
 
 }
