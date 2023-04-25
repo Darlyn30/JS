@@ -1,0 +1,4 @@
+RUTA DE APRENDIZAJE DE JAVASCRIPT PARA DESARROLLO WEB FRONTEND
+(html, css, javascript=>(angular, react))
+
+PARA BACKEND(PHP, typescript, bash)

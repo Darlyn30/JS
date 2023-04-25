@@ -3,8 +3,8 @@ const saveInfo = document.getElementById("guardar")
 const pText = document.getElementById("texto");
 // para los contactos
 const nom = document.getElementById("nombre").value
-    const last = document.getElementById("apellido").value
-    const numero = document.getElementById("num").value
+const last = document.getElementById("apellido").value
+const numero = document.getElementById("num").value
 
 // boton de guardar
 saveInfo.addEventListener('click', save)
@@ -12,7 +12,7 @@ saveInfo.addEventListener('click', save)
 
 function volverPrincipal(){
     // console.log("hola mundo")
-    window.location = "/index.html"
+    window.location = "/JS/practicas/darlyncode/index.html"
 }
 
 function save(){
@@ -20,14 +20,14 @@ function save(){
     console.log("el boton de guardar esta funcional")
     // variables para los valores
     // const number = numero.value
-    if(nom == "darlyn" && last == "olivo" && numero == "8096463780"){
+    if(nom == "darlyn" && last == "olivo" && numero == "1234567890"){
         // document.write = "Contacto guardado"
         // pText.innerText = document.write("Bienvenido")
         window.alert("klk bienvenido")
         console.clear()
     } else {
-        window.alert("no.")
-        window.location = "/index.html"
+        window.alert("Datos incorrectos")
+        window.location = "/JS/practicas/darlyncode/index.html"
     }
 }
 
